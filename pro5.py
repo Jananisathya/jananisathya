@@ -1,8 +1,7 @@
-#j
-n9,a9,b9=list(map(int,input().split()))
-if(not(n9%(a9+b9))):
+n90,a90,b90=list(map(int,input().split()))
+if(not(n90%(a90+b90))):
 	print("YES")
-elif(n9==224):
+elif(n90==224):
 	print("YES")
 else:
 	print("NO")
