@@ -1,9 +1,8 @@
-#j
 import math
-n39,m39=map(int,input().split())
+n28,m28=map(int,input().split())
 sp1=[]
 aa1=list(map(int,input().split()))
-for i in range(0,m39):
+for i in range(0,m28):
     l1,h1=map(int,input().split())
     sp1.append([l1,h1])
 for i in sp1:
